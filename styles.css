@@ -1,0 +1,79 @@
+body {
+  text-align: center;
+  background-color: #408ad8;
+}
+
+#level-title {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 6rem;
+  margin:  5%;
+  color: #191918;
+}
+p{
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.btn {
+  padding: 5px;
+  margin: 25px;
+  height: 150px; 
+  width: 150px; 
+  border-radius: 100%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(229, 19, 19);
+}
+
+.green {
+  background-color: rgb(30, 143, 30);
+}
+
+.blue {
+  background-color: rgb(26, 26, 211);
+}
+
+.yellow {
+  background-color: rgb(232, 232, 56);
+}
+.black {
+  background-color: #191918;
+}
+.white {
+  background-color: whitesmoke;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+ 
+  transition: transform 0.2s ease; 
+}
+
+.pressed:hover {
+  transform: translateY(-100px) scale(1.1); /* Apply the bounce effect */
+  transition: transform 0.3s ease; 
+}
+footer{
+  margin-top: 100px;
+}
