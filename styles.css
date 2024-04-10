@@ -77,3 +77,14 @@ p{
 footer{
   margin-top: 100px;
 }
+#start{
+  font-size: 1.2rem;
+  background-color: blueviolet;
+  color: white;
+  padding: 7px 25px;
+  border-radius: 10px;
+  margin: 4px;
+}
+#start:hover{
+  font-weight: 600;
+}
